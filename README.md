@@ -1,24 +1,78 @@
-# README
+<!-- @format -->
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Things you may want to cover:
+# Hello Rails React
 
-* Ruby version
+> "Hello Rails React" is a Full stack practice app to integrate react in the front end and rails in the backend using react-rails gem
 
-* System dependencies
+## Built With
 
-* Configuration
+- React
+- Ruby
+- Rails
+- Postgres
 
-* Database creation
+## Getting Started
 
-* Database initialization
+### To launch the project locally:
 
-* How to run the test suite
+#### Step 1:
 
-* Services (job queues, cache servers, search engines, etc.)
+- Clone this repo locally using git in the command line and the following command
 
-* Deployment instructions
+```bash
+> git clone git@github.com:franciscoPonceDev/hello-rails-react.git
+```
 
-* ...
+- Then cd into the directory using
+
+```bash
+> cd hello-rails-react
+```
+
+- Alternatively, you can just download the complete zip file and extract the folder in your directory
+
+#### Step 2:
+
+- In the project directory, you should download all dependencies using:
+
+```bash
+> bundle install
+```
+
+- then setup the db using the following command in the CL
+
+```bash
+> bin/rails db:setup
+```
+
+- Finally, you can use this command to start the live server and checkout the app!
+
+```bash
+> bin/rails s
+```
+
+## Authors
+
+👤 **Francisco Ponce**
+
+- GitHub: [@franciscoPonceDev](https://github.com/franciscoPonceDev)
+- Twitter: [@franciscoPonce](https://twitter.com/franciscoPonce)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dev-ponce/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome and highly encouraged!
+We feel that your input is what helps us grow so you're always Welcome :)
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+I would love to hear your thoughts and ideas 🖤
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
